@@ -1,3 +1,11 @@
+//
+//  JBInspector.h
+//  JBInspector
+//
+//  Created by Yusuke Arakawa on 2019/01/01.
+//  Copyright © 2019 Nekolaboratory. All rights reserved.
+//
+
 #import "JBInspector.h"
 
 @implementation JBInspector
