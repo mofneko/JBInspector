@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71E9F7F4220EC480007FBAE7 /* JBInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E9F7F1220EC480007FBAE7 /* JBInspector.m */; };
-		71E9F7F5220EC480007FBAE7 /* JBInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E9F7F2220EC480007FBAE7 /* JBInspector.h */; };
+		71E9F7F5220EC480007FBAE7 /* JBInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E9F7F2220EC480007FBAE7 /* JBInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

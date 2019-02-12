@@ -1,0 +1,16 @@
+PODS:
+  - JBInspector (1.0.0)
+
+DEPENDENCIES:
+  - JBInspector
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JBInspector
+
+SPEC CHECKSUMS:
+  JBInspector: f072ec0ccc0b659da4e77ba49005e18bfb45ced5
+
+PODFILE CHECKSUM: dc49a2b04c09d5057fcd63fce5a550ccc50602ed
+
+COCOAPODS: 1.6.0
