@@ -35,4 +35,15 @@
     return NO;
 }
 
++ (BOOL)isIGGInstalled
+{
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+
+    if ([fileManager fileExistsAtPath:@"/Applications/iGameGuardian.app"]) {
+        return YES;
+    }
+
+    return NO;
+}
+
 @end

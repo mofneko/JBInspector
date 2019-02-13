@@ -11,5 +11,6 @@
 @interface JBInspector : NSObject
 
 + (BOOL)isJailbreak;
++ (BOOL)isIGGInstalled;
 
 @end
