@@ -17,10 +17,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         if JBInspector.isJailbreak() {
-            isJailBroken.text = "isJailBroken"
+            isJailBroken.text = "isJailBroken "
         } else {
-            isJailBroken.text = "isJailed"
-
+            isJailBroken.text = "isJailed "
+        }
+        if JBInspector.isIGGInstalled() {
+            isJailBroken.text = isJailBroken.text! + "isIGGInstalled "
+        } else {
+            isJailBroken.text = isJailBroken.text! + "isNotIGGInstalled "
+        }
+        if JBInspector.isDebuggerAttached() {
+            isJailBroken.text = isJailBroken.text! + "isDebuggerAttached"
+        } else {
+            isJailBroken.text = isJailBroken.text! + "isNotDebuggerAttached"
         }
     }
 

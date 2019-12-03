@@ -85,7 +85,6 @@
 				DA42648062B994F733F15378 /* Pods-JBInspectorExample.debug.xcconfig */,
 				0C88EB90A27982261A324420 /* Pods-JBInspectorExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,7 +100,7 @@
 				71E9F81B220EC480007FBAE7 /* Frameworks */,
 				71E9F81C220EC480007FBAE7 /* Resources */,
 				71E9F8352212A3B6007FBAE7 /* ShellScript */,
-				0FDDBF721005DDE50060C5AB /* [CP] Embed Pods Frameworks */,
+				70C861CFC113708EE710E171 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,22 +158,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FDDBF721005DDE50060C5AB /* [CP] Embed Pods Frameworks */ = {
+		70C861CFC113708EE710E171 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JBInspectorExample/Pods-JBInspectorExample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JBInspector/JBInspector.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-JBInspectorExample/Pods-JBInspectorExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JBInspector.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-JBInspectorExample/Pods-JBInspectorExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -305,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -360,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

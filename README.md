@@ -40,12 +40,14 @@ if (JBInspector.isJailbreak) {
 ```cs
 using System.Runtime.InteropServices;
 
-public class Sample {
-    [DllImport("JBInspector")]
-    private static extern bool isJailbreak();
-    if (isJailbreak) {
-        // JailBreak detect.
-    }
+[DllImport("__Internal")]
+private static extern bool isJailbreak();
+public static bool isJailbreak() {
+#if UNITY_EDITOR
+	return false;
+#else
+	return isJailbreak();
+#endif
 }
 ```
 
