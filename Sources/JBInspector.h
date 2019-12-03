@@ -12,5 +12,6 @@
 
 + (BOOL)isJailbreak;
 + (BOOL)isIGGInstalled;
++ (BOOL)isDebuggerAttached;
 
 @end
